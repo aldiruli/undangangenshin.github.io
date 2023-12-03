@@ -18,7 +18,7 @@
   }
 }
 
-@keyframes wayang {
+@keyframes cloud3 {
   0% {
     transform: translateY(-3vh);
   }
@@ -119,5 +119,41 @@
   }
   100%{
     transform: translate(-50%, 50%);
+  }
+}
+
+@keyframes floatCloud {
+  0% {
+    transform: translateY(-10);
+  }
+  50% {
+    transform: translateY(-30px); /* Ubah jumlah piksel sesuai kebutuhan */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatCloud2 {
+  0% {
+    transform: translateY(-20);
+  }
+  50% {
+    transform: translateY(-40px); /* Ubah jumlah piksel sesuai kebutuhan */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatCloud3 {
+  0% {
+    transform: translateY(-40);
+  }
+  50% {
+    transform: translateY(-60px); /* Ubah jumlah piksel sesuai kebutuhan */
+  }
+  100% {
+    transform: translateY(0);
   }
 }

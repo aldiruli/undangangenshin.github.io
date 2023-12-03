@@ -119,19 +119,32 @@ p {
 .cloud {
   z-index: 5;
   height: 55vh;
+  animation: floatCloud 5s infinite linear;
+}
+.cloud path {
+  fill: #589cdf;
 }
 .cloud-2 {
   z-index: 4;
   height: 60vh;
+  animation: floatCloud2 10s infinite linear;
+}
+.cloud-2 path {
+  fill: #a3c8ee;
 }
 .cloud-3 {
   z-index: 3;
   height: 55vh;
+  animation: floatCloud3 10s infinite linear;
+}
+.cloud-3 path {
+  fill: #001f3f;
 }
 .cloud-4 {
   z-index: 1;
   height: 60vh;
 }
+
 .cloud,
 .cloud-2,
 .cloud-3,

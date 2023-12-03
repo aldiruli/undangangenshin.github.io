@@ -122,8 +122,20 @@ section{
 
 
 .getting-married {
-  /* background-image: url("../img/background-property.svg"); */
-  background-color: #0D2C63;
+  position: relative;
+  background-image: url("../img/reference/background.jpg");
+  background-attachment: fixed;
+  /* background-color: #0D2C63; */
+}
+
+.getting-married::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Warna hitam samar dengan opacity 0.5 */
 }
 .getting-married .card-getting-married {
   margin: auto;
@@ -302,14 +314,27 @@ section{
   padding: 3rem 0;
   padding-right: 1rem;
 }
-.gallery{
-  /* background-image: url("../img/background-property.svg"); */
-  background-color: #0D2C63;
+.gallery {
+  position: relative;
+  background-image: url("../img/reference/background.jpg");
+  /* background-color: #0D2C63; */
+  background-attachment: fixed;
   text-align: center;
   color: #fff;
   padding: 5rem 1rem;
   font-family: "Playfair Display", Sans-serif;
 }
+
+.gallery::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Warna hitam samar dengan opacity 0.5 */
+}
+
 .gallery h2{
   font-size: 62px;
 }
